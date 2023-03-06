@@ -1,0 +1,282 @@
+:root,
+body {
+  --indent: 1cm;
+  /* In cm */
+  --font-size: 12pt;
+  --margin-top: 8pt;
+  --margin-bottom: 8pt;
+  --zero: 0pt;
+  --max-width: 90%;
+  --header-h1: calc(var(--font-size) * 4 / 3);
+  font-family: "cascadia code";
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  text-transform: capitalize;
+  font-size: var(--font-size);
+  text-align: center;
+  line-height: calc(var(--margin-bottom) + var(--margin-top));
+  page-break-before: always;
+  border-bottom: none;
+  font-weight: bold;
+}
+
+h2 {
+  text-transform: capitalize;
+  text-indent: avoid;
+  font-weight: bold;
+  border-bottom: none;
+  text-align: justify;
+  font-size: var(--font-size);
+  margin-bottom: var(--margin-bottom);
+}
+
+h3 {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-style: italic;
+  text-align: justify;
+  text-indent: avoid;
+  margin-bottom: var(--margin-bottom);
+}
+
+h4 {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-style: normal;
+  text-align: justify;
+  font-size: var(--font-size);
+  text-indent: var(--indent);
+  margin-bottom: var(--margin-bottom);
+}
+
+h5 {
+  text-transform: capitalize;
+  font-style: italic;
+  font-weight: bold;
+  text-indent: var(--indent);
+  text-align: justify;
+  font-size: var(--font-size);
+  margin-bottom: var(--margin-bottom);
+}
+
+h6 {
+  text-transform: capitalize;
+  font-style: italic;
+  font-weight: normal;
+  text-indent: var(--indent);
+  text-align: justify;
+  font-size: var(--font-size);
+  margin-bottom: var(--margin-bottom);
+}
+
+p {
+  text-align: justify;
+  font-size: var(--font-size);
+  margin-bottom: var(--zero);
+  text-indent: var(--indent);
+  counter-reset: katexEqnNo; /* resets katex eq counter */
+}
+
+details {
+  text-align: justify;
+  font-size: var(--font-size);
+  margin-bottom: var(--zero);
+  text-indent: var(--indent);
+}
+
+summary {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.katex {
+  font-size: var(--font-size) !important;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+img,
+video {
+  display: block;
+  margin: auto;
+  max-width: var(--max-width);
+  margin-bottom: var(--margin-bottom);
+  margin-top: var(--margin-top);
+}
+
+svg {
+  display: block;
+  margin: auto;
+  max-width: var(--max-width);
+}
+
+.alt {
+  max-width: var(--max-width);
+  text-align: center !important;
+  font-style: italic;
+  text-indent: var(--zero);
+  margin-bottom: var(--margin-bottom);
+}
+
+code {
+  white-space: pre-wrap;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  max-width: var(--max-width);
+}
+
+table > thead > tr > th {
+  text-align: center;
+  border-bottom: 1pt solid !important;
+}
+
+blockquote p {
+  text-indent: var(--zero);
+}
+
+p ~ :not(p) {
+  margin-top: var(--margin-top);
+}
+
+.footnotes-list p {
+  text-indent: var(--zero);
+}
+
+* eq {
+  text-indent: 0 !important;
+}
+
+header h1 {
+  page-break-before: avoid;
+  border-bottom: 1pt solid darkgray;
+  font-size: var(--header-h1);
+  font-weight: normal;
+  padding-top: calc(2 * var(--margin-top));
+}
+
+header h2 {
+  text-align: center;
+}
+
+header h3 {
+  text-align: center;
+  font-weight: normal;
+  font-style: normal;
+  text-indent: var(--zero);
+  margin-top: var(--zero);
+}
+
+toc > ul,
+toc > ol,
+toc > li,
+toc > ul li,
+toc > ol li {
+  max-width: var(--max-width);
+  margin-left: calc(var(--indent) / 2);
+  padding-left: var(--zero);
+  list-style: outside none none;
+}
+
+bib p {
+  text-indent: calc(-1 * var(--indent));
+  padding-left: var(--indent);
+}
+
+ul > li,
+ol > li {
+  margin-left: var(--zero);
+}
+
+ul,
+li,
+ol,
+ul li,
+ol li {
+  font-size: var(--font-size);
+  margin-left: calc(var(--indent) / 2 + 0.25cm);
+  padding-left: var(--zero);
+  margin-bottom: var(--zero);
+  text-align: justify;
+}
+
+li > ul,
+li > ol {
+  padding: var(--zero);
+  text-indent: var(--zero);
+  margin: var(--zero);
+}
+
+ul,
+ol {
+  margin-bottom: var(--margin-bottom);
+}
+
+header,
+toc {
+  display: none;
+}
+
+@media print {
+  @page {
+    margin: 2cm;
+    size: letter portrait;
+  }
+
+  html,
+  body {
+    padding: var(--zero);
+    font-family: "Times New Roman", Times, serif, Georgia;
+    background-color: white;
+    color: black;
+  }
+
+  toc {
+    display: block;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  blockquote {
+    margin-left: var(--indent);
+    margin-right: var(--indent);
+    border-left: none;
+    border-right: none;
+    margin-bottom: var(--margin-bottom);
+  }
+
+  blockquote p {
+    text-indent: var(--zero);
+    text-align: justify;
+    text-align-last: center;
+  }
+
+  table,
+  tr,
+  img,
+  video,
+  svg {
+    page-break-inside: avoid;
+  }
+
+  a {
+    color: darkgrey;
+  }
+}
