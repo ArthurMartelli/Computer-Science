@@ -6,7 +6,8 @@
     "Gavidia",
     "graphviz",
     "mathcal",
-    "rankdir"
+    "rankdir",
+    "usepackage"
   ],
 
   "[markdown]": {

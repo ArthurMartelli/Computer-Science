@@ -20,9 +20,22 @@
 
 # Índice <!-- omit in toc -->
 
+- [1. SON0 SOCIEDAD DE LA INFORMACION](#1-son0-sociedad-de-la-informacion)
+- [2. Gestión de la Información](#2-gestión-de-la-información)
+  - [2.1. Alfabetización de la Información](#21-alfabetización-de-la-información)
+  - [2.2. Acceso a la información](#22-acceso-a-la-información)
+  - [2.3. Recursos de información y su aprovechamiento en el proceso de enseñanza aprendizaje](#23-recursos-de-información-y-su-aprovechamiento-en-el-proceso-de-enseñanza-aprendizaje)
+  - [2.4. Evaluación](#24-evaluación)
+- [3. Ciencias humanas, de la comunicación y educación](#3-ciencias-humanas-de-la-comunicación-y-educación)
+  - [3.1. Comunicación y evaluación de la información](#31-comunicación-y-evaluación-de-la-información)
+  - [3.2. Introducción a la sociedad del conocimiento](#32-introducción-a-la-sociedad-del-conocimiento)
+  - [3.3. Evaluación](#33-evaluación)
+- [4. Persona Humana y Sociedad](#4-persona-humana-y-sociedad)
+- [5. Enfoque de Derechos e Inclusión](#5-enfoque-de-derechos-e-inclusión)
+
 </toc>
 
-# SON0 SOCIEDAD DE LA INFORMACION
+# 1. SON0 SOCIEDAD DE LA INFORMACION
 
 # Introducción <!-- omit in toc -->
 
@@ -36,13 +49,13 @@ Con el conocimiento adquirido tendrás elementos para proponer alternativas en b
 
 Identificar y acceder a las nuevas tecnologías de la información y comunicación, reconociendo e interpretando también los cambios sociales que se generan por la cultura y globalización a nivel mundial.
 
-# 1. Gestión de la Información
+# 2. Gestión de la Información
 
 ## Objetivos <!-- omit in toc -->
 
 - Utilizar los diferentes tipos de fuentes de acceso a la información, confiable, oportuna y eficaz , haciendo diferencia de los recursos tecnológicos.
 
-## 1.1. Alfabetización de la Información
+## 2.1. Alfabetización de la Información
 
 El presente tema es impartido con el propósito de introducirlos a la adecuada búsqueda de la información y poseer la capacidad de localizar, evaluar y utilizar eficazmente la información requerida.
 
@@ -333,7 +346,7 @@ La alfabetización digital no es más que un aspecto de la alfabetización múlt
 
 </bib>
 
-## 1.2. Acceso a la información
+## 2.2. Acceso a la información
 
 El acceso a la información de forma eficaz, utilizarla y transmitirla de manera ética es el propósito de este tema y seleccionando e identificando los diferentes recursos y fuentes de información según las necesidades educativas y profesionales.
 
@@ -628,7 +641,7 @@ Actualmente las formas que tiene un usuario de interactuar con la Web son muy li
 
 </bib>
 
-## 1.3. Recursos de información y su aprovechamiento en el proceso de enseñanza aprendizaje
+## 2.3. Recursos de información y su aprovechamiento en el proceso de enseñanza aprendizaje
 
 Los avances tecnológicos han revolucionado la forma de enseñanza en los diferentes niveles educativos formales y no formales, que han incidido en todas las sociedades por la cantidad de información obtenida por medio del internet y de los diferentes recursos con que se cuenta como dispositivos portátiles que permiten acceder a esta información en cualquier lugar.
 
@@ -983,7 +996,7 @@ Con el acceso a estos recursos los estudiantes y docentes pueden acceder a ellos
 
 </bib>
 
-## 1.4. Evaluación
+## 2.4. Evaluación
 
 ### 1. Uno de los aspectos más importantes a tener presente al momento de evaluar la fuente de información es
 
@@ -1022,7 +1035,7 @@ Con el acceso a estos recursos los estudiantes y docentes pueden acceder a ellos
 - [x] Asincrónica
 - [ ] Sincrónica
 
-# 2. Ciencias humanas, de la comunicación y educación
+# 3. Ciencias humanas, de la comunicación y educación
 
 La Sociedad del conocimiento nos conducirá a explicar los diferentes fenómenos de la vida en sociedad, nos induce a seguir una línea de tiempo de la Sociología, desde su conceptualización, importancia, sus características, la relación con las diferentes ciencias y a explicar los fenómenos culturales que se han generado dándose respuesta por medio de la investigación científica y tecnológica como herramienta para el conocimiento de la realidad.
 
@@ -1032,7 +1045,7 @@ Se interpreta y analiza las diferentes teóricas ideológicas por la influencia 
 
 Reconocer e identificar los cambios científicos, tecnológicos y culturales que se han generado por la evolución de las sociedades.
 
-## 2.1. Comunicación y evaluación de la información
+## 3.1. Comunicación y evaluación de la información
 
 La aparición del Internet ha provocado que sea una de las fuentes de información más utilizadas, donde debemos tener en cuenta que fue diseñada para promover el intercambio ilimitado de información, sin que existieran necesariamente reglas o procedimientos para asegurar la calidad de la información expuesta. Esta falta de control y publicidad de la Web pueden afectar la calidad de la información.
 
@@ -1345,7 +1358,7 @@ Criterios a considerar:
 
 </bib>
 
-## 2.2. Introducción a la sociedad del conocimiento
+## 3.2. Introducción a la sociedad del conocimiento
 
 El término ‘Sociedad del Conocimiento’ tiene gran importancia en los estudios actuales de las Ciencias Sociales. Es un término que estudia las transformaciones y analiza los fenómenos sociales que se producen en la sociedad moderna.
 
@@ -1666,12 +1679,12 @@ Ejemplo: Comunismo, Socialismo,Liberalismo
 
 </bib>
 
-## 2.3. Evaluación
+## 3.3. Evaluación
 
-# 3. Persona Humana y Sociedad
+# 4. Persona Humana y Sociedad
 
 ## Objetivos <!-- omit in toc -->
 
-# 4. Enfoque de Derechos e Inclusión
+# 5. Enfoque de Derechos e Inclusión
 
 ## Objetivos <!-- omit in toc -->

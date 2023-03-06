@@ -104,3 +104,8 @@ digraph finite_state_machine {
 
 1. Clone the repository with `git clone https://github.com/ArthurMartelli/Computer-Science`.
 2. Begin typing in the files.
+
+## Markdown tools for editing
+
+1. Rendering files to pdf: To render a file, use the VS Code command `> Markdown All in One: Print Current document to HTML`, then open it in a web browser and print it to pdf.
+2. Table of Contents (TOC): On the line you want the TOC to start, use the VS Code command `> Markdown All in One: Create Table of Contents`. The table will update itself automatically.
