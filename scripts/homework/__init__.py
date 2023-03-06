@@ -77,6 +77,7 @@ class Homework:
         body = [
             f'<img src="../../static/logo.png">',
             f'# {self.title} <!-- omit in toc -->',
+            f"## Universidad Francisco Gavidia | Ingeniería en Ciencias de la Computación <!-- omit in toc -->",
             f"### Date <!-- omit in toc -->",
         ]
 
