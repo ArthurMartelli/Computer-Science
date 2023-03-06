@@ -1,8 +1,6 @@
-import csv
 from io import TextIOWrapper
 import os
 import sys
-from datetime import date
 
 # Variables
 
@@ -18,7 +16,7 @@ def write_space(file: TextIOWrapper) -> None:
     return None
 
 
-def Inquire(Message: str, Options: list, Multi_Ans: bool = False) -> str | list[str] | None:
+def Inquire(Message: str, Options: list[str], Multi_Ans: bool = False) -> str | list[str] | None:
     """Displays a question with multiple options to the user
 
     Args:
@@ -68,7 +66,7 @@ class Homework:
         return os.path.join(".", self.title)
 
     @property
-    def template(self) -> None:
+    def template(self) -> list[str]:
         header = [
             f'<!-- title: {self.title} -->',
             f'<link rel="stylesheet" href="../../static/style.css">',

@@ -1,3 +1,39 @@
 {
-  "python.analysis.typeCheckingMode": "basic"
+  "python.analysis.typeCheckingMode": "strict",
+  "cSpell.words": [
+    "bioinformatics",
+    "doublecircle",
+    "graphviz",
+    "mathcal",
+    "rankdir"
+  ],
+
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "cSpell.ignoreRegExpList": [
+    "[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*)"
+  ],
+  "cSpell.language": "en,es",
+
+  "editor.formatOnSave": true,
+
+  "markdown.extension.italic.indicator": "_",
+  "markdown.extension.list.indentationSize": "inherit",
+  "markdown.extension.math.enabled": false,
+  "markdown.extension.print.theme": "dark",
+  "markdown.extension.toc.levels": "1..2",
+  "markdown.marp.enableHtml": true,
+  "markdown.preview.fontFamily": "'Cascadia Code PL', 'CaskaydiaCove Nerd Font'",
+  "markdown.updateLinksOnFileMove.enabled": "always",
+  "markdownlint.config": {
+    "MD007": false,
+    "MD024": false,
+    "MD025": false,
+    "MD033": false,
+    "MD034": false,
+    "MD037": false,
+    "MD041": false
+  }
 }
