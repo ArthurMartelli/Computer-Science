@@ -1,0 +1,15 @@
+{
+  "recommendations": [
+    "mblode.zotero",
+    "streetsidesoftware.code-spell-checker",
+    "yzhang.markdown-all-in-one",
+    "bierner.markdown-mermaid",
+    "mdickin.markdown-shortcuts",
+    "goessner.mdmath",
+    "DavidAnson.vscode-markdownlint",
+    "bpruitt-goddard.mermaid-markdown-syntax-highlighting",
+    "esbenp.prettier-vscode",
+    "streetsidesoftware.code-spell-checker-spanish",
+    "geeklearningio.graphviz-markdown-preview"
+  ]
+}
