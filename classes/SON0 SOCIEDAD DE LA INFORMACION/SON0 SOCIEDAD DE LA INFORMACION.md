@@ -852,7 +852,7 @@ digraph ORG {
   Imagen        [ label = "Imagen"       ]
   Sonido        [ label = "Sonido"       ]
   Video         [ label = "Video"        ]
-  Hipervinculo  [ label = "Hipervínculo" ]
+  Hyperlink  [ label = "Hipervínculo" ]
 
   node[shape=none, width=0, height=0, label=""];
 
@@ -868,12 +868,12 @@ digraph ORG {
   Hoja1 -> Imagen;
   Hoja1 -> Sonido;
   Hoja1 -> Video;
-  Hoja1 -> Hipervinculo;
+  Hoja1 -> Hyperlink;
 
   {rank=same; Capitulo1 -> Capitulo2 -> Capitulo3;}
   {rank=same; Epigrafe1 -> Epigrafe2 -> Epigrafe3;}
   {rank=same; Hoja1 -> Hoja2 -> Hoja3;}
-  {rank=same; Texto -> Imagen -> Sonido -> Video -> Hipervinculo;}
+  {rank=same; Texto -> Imagen -> Sonido -> Video -> Hyperlink;}
 
 }
 ```
@@ -1059,7 +1059,7 @@ En el presente tema estudiaremos la comunicación, los criterios para evaluar la
 
 #### Comunicación
 
-La comunicación es el proceso de transmisión e intercambio de mensajes entre un emisor y un receptor. La comunicación deriva del latín communicatĭo que significa compartir, participar en algo o poner en común.
+La comunicación es el proceso de transmisión e intercambio de mensajes entre un emisor y un receptor. La comunicación deriva del latín _communicatĭo_ que significa compartir, participar en algo o poner en común.
 
 A través del proceso de comunicación los seres humanos comparten información entre sí, haciendo del acto de comunicar una actividad esencial para la vida en la sociedad.
 
